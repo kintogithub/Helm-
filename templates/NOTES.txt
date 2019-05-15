@@ -1,4 +1,4 @@
-1. Get the application URL by running these command:
+1. Get the application URL by running theses command:
 {{- if .Values.ingress.enabled }}
 {{- range $host := .Values.ingress.hosts }}
   {{- range .paths }}
